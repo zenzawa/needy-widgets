@@ -1,0 +1,29 @@
+// https://gitlab.gnome.org/GNOME/gtk/-/blob/gtk-3-24/gtk/theme/Adwaita/_colors-public.scss
+// purple #4D23EF
+// cyan #90F4E4
+// pink #F0D1F1
+// magenta #EAA0E8
+// gray #E3E3E3
+$fg-color: #{"@theme_fg_color"};
+$bg-color: #{"@theme_bg_color"};
+
+.Main {
+  color: black;
+}
+
+.bg {
+   background: #fcf0fd;
+}
+
+.container {
+}
+
+.animate {
+  animation: slide 300ms ease-in-out;
+}
+
+@keyframes slide {
+  0% { transform: translateY(0); }
+  50% { transform: translateY(20px); }
+  100% { transform: translateY(0); }
+}
