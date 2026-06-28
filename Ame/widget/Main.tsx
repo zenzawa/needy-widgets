@@ -18,7 +18,7 @@ interface Animation {
 }
 
 const FPS = 3
-const SWITCH_ANIMATION_DELAY = 10
+const SWITCH_ANIMATION_DELAY = 15
 const TRANSFORMATION_FPS = 14
 
 const ame: any = {
