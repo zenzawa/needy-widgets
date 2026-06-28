@@ -50,3 +50,6 @@ then `ags run app.ts`
 - click on the widget to change the image
 
 
+# Demo 
+
+https://www.reddit.com/r/unixporn/comments/1ubpkto/kde_needy_streamer_overload_inspired_rice/
