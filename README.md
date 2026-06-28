@@ -12,6 +12,10 @@ cd into the respective widget directory
 
 run `ags run app.ts`
 
+bundle the widget using `ags bundle app.ts my-shell`
+
+then execute it using `./my-shell`
+
 ## for nixos
 
 clone the repository
