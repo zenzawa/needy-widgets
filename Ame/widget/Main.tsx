@@ -303,6 +303,7 @@ export default function Main() {
       const nextAnimation =
         kAngelAnimations[(currIndex + 1) % kAngelAnimations.length]
 
+      curr = 0
       currentAnimation = kAngel[nextAnimation]
 
       return
@@ -311,6 +312,7 @@ export default function Main() {
     const currIndex = ameAnimations.indexOf(currentAnimation.name)
     const nextAnimation = ameAnimations[(currIndex + 1) % ameAnimations.length]
 
+    curr = 0
     currentAnimation = ame[nextAnimation]
   }
 
@@ -331,7 +333,7 @@ export default function Main() {
       changeSprite(`${basePath}/${curr}.png`)
 
       timer = interval(1000 / TRANSFORMATION_FPS, () => {
-        if ((curr === ame.blank.count)) {
+        if (curr === ame.blank.count) {
           curr = 0
 
           currentAnimation =
