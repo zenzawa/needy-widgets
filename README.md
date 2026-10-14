@@ -30,6 +30,12 @@ run `nix develop`
 
 then `ags run app.ts`
 
+to build
+
+run `nix build`
+
+then `./result/bin/my-shell`
+
 
 # About widgets
 
